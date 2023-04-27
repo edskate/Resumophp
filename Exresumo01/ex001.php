@@ -10,7 +10,15 @@
 
 <body>
     <h1>Treinando PHP.</h1>
+    <p>So ira rodar no navegador com o Xampp.</p>
     <?php
+$nome = 'edy';
+$ano = date('Y');
+echo <<< TESTE
+Ola Meus amigos $Canal!
+ tudo bem Com Vocês $ano?
+ Abraços! \u{1F596}
+ TESTE
 
     ?>
 </body>
